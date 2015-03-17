@@ -18,7 +18,7 @@ sap.ui.jsview("ui5demo.app", {
 			title:"Customer Orders Demo",
 			type: sap.m.StandardTileType.None,
 			info:"customer orders",
-			icon:"sap-icon://plus",
+			icon:"sap-icon://customer-order-entry",
 			press: oController.openCustOrders
 		});
 		
@@ -29,7 +29,7 @@ sap.ui.jsview("ui5demo.app", {
 		tileContainer.addTile(customerOrders);
 		
  		return new sap.m.Page({
-			title: "Title",
+			title: "UI5 Demo Applications by Naresh G",
 			enableScrolling: false,
 			content: [
 			          	tileContainer
