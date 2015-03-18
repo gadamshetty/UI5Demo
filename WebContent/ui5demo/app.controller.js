@@ -3,6 +3,10 @@ sap.ui.controller("ui5demo.app", {
 	openCustOrders: function(){
 		window.location = 'http://www.stanmedpharma.com/SapUI5MobileDemo/WebContent/index.html#';
 	},
+	
+	openSalesOrders: function(){
+		window.location = 'http://www.stanmedpharma.com/SAPSalesOrdersDemo/WebContent/index.html#';
+	},
 /**
 * Called when a controller is instantiated and its View controls (if available) are already created.
 * Can be used to modify the View before it is displayed, to bind event handlers and do other one-time initialization.
